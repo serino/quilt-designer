@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quilt Designer</title>
+
+  <script src="home.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1>Quilt Designer</h1>
+
+  <div id="parentDiv"></div>
+
+  <bold>Image:</bold>
+  <div>
+    <button id="patternButton" onclick="setToPattern()">Pattern</button>
+    <button id="boatButton" onclick="setToBoat()">Boat</button>
+    <button id="dogButton" onclick="setToDog()">Dog</button>
+
+    <p id="selectedImageParagraph">Selected image: unselected</p>
+  </div>
+
+  <bold>Rotation:</bold>
+  <div>
+    <button id="deg90Button" onclick="rotate90()">90 Degrees</button>
+    <button id="deg180Button" onclick="rotate180()">180 Degrees</button>
+    <button id="deg270Button" onclick="rotate270()">270 Degrees</button>
+
+    <p id="selectedRotationParagraph">Selected rotation: unselected</p>
+  </div>
+
+  <button id="blankQuiltButton" onclick="createBlankQuilt()">Blank Quilt</button>
+
+</body>
+</html>

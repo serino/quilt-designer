@@ -1,0 +1,1 @@
+This program allows a user to design the layout of a quilt. The can select what each square of the quilt should look like as well as to what degree each pattern should be rotated.
